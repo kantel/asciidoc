@@ -1,0 +1,14 @@
+= Mein erster AsciiDoc-Test
+Jörg Kantel <joerg@kantel.de>
+
+Was ist eigentlich dieses http://cognitiones.kantel-chaos-team.de/produktivitaet/asciidoc.html[AsciiDoc] und was ist http://cognitiones.kantel-chaos-team.de/produktivitaet/asciidoctor.html[Asciidoctor]?
+
+== Erste Zwischenüberschrift
+
+* Punkt 1
+* Punkt 2
+
+AsciiDoc kann Fußnoten.footnote:[Das ist eine Fußnote!]
+
+[source, python]
+print("Hallo Jörg")
