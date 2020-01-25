@@ -5,7 +5,7 @@ Was ist eigentlich dieses http://cognitiones.kantel-chaos-team.de/produktivitaet
 
 == Erste Zwischenüberschrift
 
-* Punkt 1: `asciidoctor.css`
+* Punkt 1: `rocket-panda.css`
 * Punkt 2
 
 AsciiDoc kann Fußnoten.footnote:[Das ist eine Fußnote!]

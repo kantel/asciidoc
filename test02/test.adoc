@@ -5,11 +5,10 @@ Was ist eigentlich dieses http://cognitiones.kantel-chaos-team.de/produktivitaet
 
 == Erste Zwischenüberschrift
 
-* Punkt 1: `asciidoctor.css`
+* Punkt 1: `foundation.css3`
 * Punkt 2
 
 AsciiDoc kann Fußnoten.footnote:[Das ist eine Fußnote!]
 
 [source, python]
 print("Hallo Jörg")
-a = "Mein String"
