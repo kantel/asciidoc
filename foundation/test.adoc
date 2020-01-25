@@ -1,0 +1,24 @@
+= Mein erster AsciiDoc-Test
+Jörg Kantel <joerg@kantel.de>
+:source-highlighter: prettify
+:icons: font
+
+Was ist eigentlich dieses http://cognitiones.kantel-chaos-team.de/produktivitaet/asciidoc.html[AsciiDoc] und was ist http://cognitiones.kantel-chaos-team.de/produktivitaet/asciidoctor.html[Asciidoctor]?
+
+== Erste Zwischenüberschrift
+
+* Punkt 1: `foundation-potion.css`
+* Punkt 2
+
+AsciiDoc kann Fußnoten.footnote:[Das ist eine Fußnote!]
+
+[source, python]
+----
+print("Hallo Jörg") # <1>
+a = 10
+for i in range(a):
+    print(i)
+----
+<1> Python-3-Stil
+
+Und AsciiDoc kann Anmerkungen im Quellcode!
