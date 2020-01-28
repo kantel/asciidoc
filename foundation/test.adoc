@@ -22,3 +22,5 @@ for i in range(a):
 <1> Python-3-Stil
 
 Und AsciiDoc kann Anmerkungen im Quellcode!
+
+So lokalisiert man Asciidoctor: https://www.hagen-bauer.de/2018/10/asciidoctor-deutsche-begriffe.html[Asciidoctor mit deutschen Begriffen] 
