@@ -1,6 +1,11 @@
-= Mein erster AsciiDoc-Test
-Jörg Kantel <joerg@kantel.de>
-:source-highlighter: prettify
+= Mein zweiter AsciiDoc(tor)-Test
+:doctype: article
+:reproducible:
+:imagesdir: images
+:lang: de
+include::locale/attributes.adoc[]
+:source-highlighter: rouge
+:listing-caption: Listing
 :icons: font
 
 Was ist eigentlich dieses http://cognitiones.kantel-chaos-team.de/produktivitaet/asciidoc.html[AsciiDoc] und was ist http://cognitiones.kantel-chaos-team.de/produktivitaet/asciidoctor.html[Asciidoctor]?
@@ -8,10 +13,11 @@ Was ist eigentlich dieses http://cognitiones.kantel-chaos-team.de/produktivitaet
 == Erste Zwischenüberschrift
 
 * Punkt 1: `foundation-potion.css`
-* Punkt 2
+* Punkt 2: Jetzt auch als PDF
 
 AsciiDoc kann Fußnoten.footnote:[Das ist eine Fußnote!]
 
+.Ein wenig Python-Code
 [source, python]
 ----
 print("Hallo Jörg") # <1>
@@ -22,5 +28,13 @@ for i in range(a):
 <1> Python-3-Stil
 
 Und AsciiDoc kann Anmerkungen im Quellcode!
+
+== Und nun ein Bild
+
+.Die Folgen strunzdämlicher, grüner Politik
+[link=https://www.flickr.com/photos/schockwellenreiter/49435385692/]
+image::muellcontainer.jpg[Glascontainer, 400, 300]
+
+== Hier ein Link
 
 So lokalisiert man Asciidoctor: https://www.hagen-bauer.de/2018/10/asciidoctor-deutsche-begriffe.html[Asciidoctor mit deutschen Begriffen] 
