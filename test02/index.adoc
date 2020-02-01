@@ -1,0 +1,38 @@
+= Mein dritter AsciiDoc-Test
+Jörg Kantel
+:doctype: article
+:reproducible:
+:imagesdir: images
+:lang: de
+include::locale/attributes.adoc[]
+:source-highlighter: prettify
+:listing-caption: Listing
+:stylesheet: css/colony.css
+:icons: font
+
+Was ist eigentlich dieses http://cognitiones.kantel-chaos-team.de/produktivitaet/asciidoc.html[AsciiDoc] und was ist http://cognitiones.kantel-chaos-team.de/produktivitaet/asciidoctor.html[Asciidoctor]?
+
+== Brexit-Tag
+
+.Heute ist der Brexit-Tag
+image::brexit1870-b.jpg[Brexit 1870, 600, auto]
+
+
+== Eine Zwischenüberschrift
+
+* Punkt 1: `asciidoctor.css`
+* Punkt 2
+
+AsciiDoc kann Fußnoten.footnote:[Das ist eine Fußnote!]
+
+.Ein wenig Quellcode mit einer Anmerkung
+[source, python]
+----
+print("Hallo Jörg") # <1>
+a = 10
+for i in range(a):
+    print(i)
+----
+<1> Python-3-Stil
+
+Und AsciiDoc kann Anmerkungen im Quellcode!
