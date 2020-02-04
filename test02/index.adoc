@@ -5,7 +5,7 @@ Jörg Kantel
 :imagesdir: images
 :lang: de
 include::locale/attributes.adoc[]
-:source-highlighter: prettify
+:source-highlighter: pygments
 :listing-caption: Listing
 :stylesheet: css/colony.css
 :icons: font
