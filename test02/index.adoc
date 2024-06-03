@@ -20,8 +20,8 @@ image::brexit1870-b.jpg[Brexit 1870, 600, auto]
 
 == Eine Zwischenüberschrift
 
-* Punkt 1: `asciidoctor.css`
-* Punkt 2
+* CSS: `colony.css`
+* Syntax-Highlighter: `pygments`
 
 AsciiDoc kann Fußnoten.footnote:[Das ist eine Fußnote!]
 
